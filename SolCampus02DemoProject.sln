@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campus02DemoProject", "Campus02DemoProject\Campus02DemoProject.csproj", "{276BECED-EC7B-4189-A255-4B948977944D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Campus02DemoProject", "Campus02DemoProject\Campus02DemoProject.csproj", "{276BECED-EC7B-4189-A255-4B948977944D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstFunction", "MyFirstFunction\MyFirstFunction.csproj", "{87BF0D30-1BBA-46F0-AFAD-16C49AAEF21D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoTableProjectDeprecated", "DemoTableProject\DemoTableProjectDeprecated.csproj", "{D1CDB4F1-BE64-468E-9064-CE0F66CBDF0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTableDemo", "AzureTableDemo\AzureTableDemo.csproj", "{22B24634-4AF1-46DA-A399-B9384A338A57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{276BECED-EC7B-4189-A255-4B948977944D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{276BECED-EC7B-4189-A255-4B948977944D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{276BECED-EC7B-4189-A255-4B948977944D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BF0D30-1BBA-46F0-AFAD-16C49AAEF21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BF0D30-1BBA-46F0-AFAD-16C49AAEF21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BF0D30-1BBA-46F0-AFAD-16C49AAEF21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BF0D30-1BBA-46F0-AFAD-16C49AAEF21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CDB4F1-BE64-468E-9064-CE0F66CBDF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CDB4F1-BE64-468E-9064-CE0F66CBDF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CDB4F1-BE64-468E-9064-CE0F66CBDF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CDB4F1-BE64-468E-9064-CE0F66CBDF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B24634-4AF1-46DA-A399-B9384A338A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B24634-4AF1-46DA-A399-B9384A338A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B24634-4AF1-46DA-A399-B9384A338A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B24634-4AF1-46DA-A399-B9384A338A57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

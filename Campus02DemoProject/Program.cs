@@ -1,4 +1,5 @@
 
+using Azure.Storage.Blobs;
 using Campus02DemoProject.Models;
 using Campus02DemoProject.Services;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,8 @@ namespace Campus02DemoProject
             builder.Services.AddDbContext<TodoContext>(opt =>
     opt.UseInMemoryDatabase("TodoList"));
             builder.Services.AddSingleton<ICalcService,CalcService>();
+            builder.Services.AddSingleton(x => new BlobServiceClient("DefaultEndpointsProtocol=https;AccountName="));
+            builder.Services.AddSingleton<ICCBlobService, CCBlobService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
